@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+ruby '2.1.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.4'
@@ -38,3 +39,28 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+# learn-rails gems
+# Helps to use Rails without a database
+gem 'activerecord-tableless'
+# Support for Zurb Foundation
+gem 'compass-rails'
+# Configuration framework
+gem 'figaro'
+# Access to the MailChimp API
+gem 'gibbon'
+# Use Google Drive spreadsheets for data storage
+gem 'google_drive'
+# For static pages like “about”
+gem 'high_voltage'
+# Forms made easy
+gem 'simple_form'
+# Front-end framework
+gem 'zurb-foundation'
+group :development do
+	# Helps when things go wrong
+	gem 'better_errors'
+	# Suppresses distracting messages in the log
+	gem 'quiet_assets'
+	# Generates files for an application layout
+	gem 'rails_layout'
+end
