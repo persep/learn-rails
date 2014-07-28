@@ -4,8 +4,6 @@ ruby '2.1.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.4'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -43,9 +41,7 @@ gem 'spring',        group: :development
 # Helps to use Rails without a database
 gem 'activerecord-tableless'
 # Support for Zurb Foundation
-gem 'compass-rails'
-# Configuration framework
-gem 'figaro'
+gem 'foundation-rails'
 # Access to the MailChimp API
 gem 'gibbon'
 # Use Google Drive spreadsheets for data storage
@@ -54,8 +50,6 @@ gem 'google_drive'
 gem 'high_voltage'
 # Forms made easy
 gem 'simple_form'
-# Front-end framework
-gem 'zurb-foundation'
 group :development do
 	# Helps when things go wrong
 	gem 'better_errors'
@@ -63,4 +57,6 @@ group :development do
 	gem 'quiet_assets'
 	# Generates files for an application layout
 	gem 'rails_layout'
+	# Use sqlite3 as the database for Active Record
+	gem 'sqlite3'
 end
