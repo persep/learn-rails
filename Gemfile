@@ -50,6 +50,8 @@ gem 'google_drive'
 gem 'high_voltage'
 # Forms made easy
 gem 'simple_form'
+# Foundation for rails
+gem 'foundation-rails'
 group :development do
 	# Helps when things go wrong
 	gem 'better_errors'
