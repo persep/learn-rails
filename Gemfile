@@ -40,8 +40,6 @@ gem 'spring',        group: :development
 # learn-rails gems
 # Helps to use Rails without a database
 gem 'activerecord-tableless'
-# Support for Zurb Foundation
-gem 'foundation-rails'
 # Access to the MailChimp API
 gem 'gibbon'
 # Use Google Drive spreadsheets for data storage
