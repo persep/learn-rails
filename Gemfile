@@ -53,6 +53,8 @@ gem 'foundation-rails'
 group :development do
 	# Helps when things go wrong
 	gem 'better_errors'
+	# Shows variables and ads a REPL to better_errors
+	gem 'binding_of_caller', :platforms=>[:mri_21]
 	# Suppresses distracting messages in the log
 	gem 'quiet_assets'
 	# Generates files for an application layout
